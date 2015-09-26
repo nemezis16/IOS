@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NSOperation_with_RandomArray' target in the 'NSOperation_with_RandomArray' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
