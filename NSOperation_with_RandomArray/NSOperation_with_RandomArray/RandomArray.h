@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+@interface RandomArray : NSOperation
 
+{
+    BOOL executing;
+    BOOL finished;
+}
 
 
 @property (nonatomic,strong) NSMutableArray* arr;
